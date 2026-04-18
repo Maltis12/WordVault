@@ -1,0 +1,19 @@
+{
+  "name": "wordvault",
+  "version": "1.0.0",
+  "description": "Submit an English word and find out if you were the first",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build step required for static site'"
+  },
+  "keywords": [
+    "word",
+    "game",
+    "vault"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
