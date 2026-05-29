@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — WordVault</title>
+  <meta name="description" content="Learn about WordVault — the game where you discover if you were the first person to ever submit a word. Find out how it works, what trophies are, and more." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3989179117356133" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .about-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+      position: relative;
+      z-index: 5;
+    }
+    .about-eyebrow {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+    .about-wrap h1 {
+      font-family: var(--font-display);
+      font-size: clamp(40px, 7vw, 64px);
+      letter-spacing: 2px;
+      color: var(--white);
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+    .about-intro {
+      font-size: 17px;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 3rem;
+      max-width: 560px;
+    }
+    .about-section { margin-bottom: 2.5rem; }
+    .about-section h2 {
+      font-family: var(--font-display);
+      font-size: 28px;
+      letter-spacing: 2px;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+    .about-section p {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.75;
+      margin-bottom: 0.75rem;
+    }
+    .about-section p strong { color: var(--white); font-weight: 500; }
+    .faq-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 10px;
+    }
+    .faq-q { font-size: 15px; font-weight: 500; color: var(--white); margin-bottom: 0.5rem; }
+    .faq-a { font-size: 14px; color: var(--text-muted); line-height: 1.7; }
+    .about-divider { height: 1px; background: var(--border); margin: 2.5rem 0; }
+    .steps { display: flex; flex-direction: column; gap: 12px; margin-top: 1rem; }
+    .step { display: flex; gap: 1rem; align-items: flex-start; }
+    .step-num {
+      font-family: var(--font-display);
+      font-size: 28px;
+      color: var(--gold);
+      line-height: 1;
+      min-width: 32px;
+    }
+    .step-text { font-size: 15px; color: var(--text-muted); line-height: 1.6; padding-top: 4px; }
+    .step-text strong { color: var(--white); font-weight: 500; }
+    .cta-box {
+      background: rgba(201,168,76,0.08);
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: var(--radius);
+      padding: 2rem 1.5rem;
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .cta-box h3 {
+      font-family: var(--font-display);
+      font-size: 32px;
+      letter-spacing: 2px;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+    .cta-box p { font-size: 14px; color: var(--text-muted); margin-bottom: 1.25rem; }
+    .cta-box a {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--black);
+      text-decoration: none;
+      padding: 0.7rem 2rem;
+      border-radius: 8px;
+      font-family: var(--font-display);
+      font-size: 20px;
+      letter-spacing: 2px;
+      transition: background 0.18s ease;
+    }
+    .cta-box a:hover { background: var(--gold-light); }
+  </style>
+</head>
+<body>
+
+  <div class="bg-grid"></div>
+
+  <header>
+    <a href="index.html" class="logo" style="text-decoration:none;">WORDVAULT</a>
+    <div class="header-right">
+      <a href="index.html" class="leaderboard-toggle" style="text-decoration:none;">← Play</a>
+    </div>
+  </header>
+
+  <div class="about-wrap">
+
+    <p class="about-eyebrow">About WordVault</p>
+    <h1>The Word Discovery Game</h1>
+    <p class="about-intro">
+      WordVault is a free word game where every submission is a small piece of history.
+      Type any English word and find out how many people have submitted it before you —
+      or discover that you were the very first.
+    </p>
+
+    <div class="about-divider"></div>
+
+    <div class="about-section">
+      <h2>How It Works</h2>
+      <p>WordVault is built around a simple but addictive idea: every English word can only have one true first discoverer. When you submit a word, our database checks whether it has ever been submitted before. If it has not, you claim it — and a trophy is permanently added to your Trophy Room.</p>
+      <p>The game validates every submission against a real English dictionary, so made-up words and typos do not count. Only genuine English words can be claimed.</p>
+      <div class="steps">
+        <div class="step">
+          <span class="step-num">1</span>
+          <span class="step-text"><strong>Type any English word</strong> into the search box on the main page.</span>
+        </div>
+        <div class="step">
+          <span class="step-num">2</span>
+          <span class="step-text"><strong>WordVault checks the dictionary</strong> to make sure it is a real word, then searches the database.</span>
+        </div>
+        <div class="step">
+          <span class="step-num">3</span>
+          <span class="step-text"><strong>You see the result:</strong> how many people submitted this word before you — or a trophy if you were first.</span>
+        </div>
+        <div class="step">
+          <span class="step-num">4</span>
+          <span class="step-text"><strong>First discoveries earn a 🏆 trophy</strong> that lives permanently in your Trophy Room.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-divider"></div>
+
+    <div class="about-section">
+      <h2>Trophy Room</h2>
+      <p>Every word you discover first is stored in your personal Trophy Room. Create a free account to make sure your trophies are saved permanently across all your devices. Guests can still play and collect trophies, but they are stored locally in your browser — if you clear your browser data, they will be lost.</p>
+      <p>Your trophies are yours forever. No matter how many other people later submit the same word, your first-discovery trophy remains in your collection.</p>
+    </div>
+
+    <div class="about-divider"></div>
+
+    <div class="about-section">
+      <h2>Daily Challenge</h2>
+      <p>Every day, WordVault selects a mystery word from all the words ever submitted on the platform. Your job is to guess what it is. You are given the <strong>first letter</strong>, the <strong>word length</strong>, and — for longer words — the <strong>last letter</strong> as well.</p>
+      <p>Solve the daily challenge and earn a special <strong>⭐ daily trophy</strong> that shows in your Trophy Room alongside your regular discoveries. A new challenge is available every day, so there is always something to come back for.</p>
+    </div>
+
+    <div class="about-divider"></div>
+
+    <div class="about-section">
+      <h2>Leaderboard</h2>
+      <p>The WordVault leaderboard tracks who has made the most first discoveries. Create an account and start claiming words to climb the ranks. The leaderboard updates in real time — every new trophy immediately reflects in the standings.</p>
+    </div>
+
+    <div class="about-divider"></div>
+
+    <div class="about-section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <div class="faq-q">Is WordVault free to play?</div>
+        <div class="faq-a">Yes, WordVault is completely free. No subscription, no payment, no catch. Create a free account to save your trophies, or play as a guest right away.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Do I need an account to play?</div>
+        <div class="faq-a">No. You can play as a guest without signing up. However, guest trophies are stored in your browser and can be lost if you clear your browser data or switch devices. Creating a free account saves everything permanently in the cloud.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">What counts as a valid word?</div>
+        <div class="faq-a">Any word found in the English dictionary. WordVault checks every submission against a live dictionary API, so slang, made-up words, and misspellings will be rejected. Only letters are accepted — no numbers, spaces, or special characters.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">What happens if someone submits the same word as me?</div>
+        <div class="faq-a">If you were first, your trophy stays yours no matter what. Later submissions of the same word simply increase that word's count. First discovery is permanent.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">How is the daily challenge word chosen?</div>
+        <div class="faq-a">The daily word is automatically selected each day from all words that have been submitted on WordVault. Shorter words are prioritised to keep the challenge fair and fun. Each word is only used once, so the pool of possible daily words grows every day as players discover new words.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Can I see what words have already been claimed?</div>
+        <div class="faq-a">You can check the Stats page to see the top 10 most submitted words and the latest first discoveries. The only way to find out if a specific word has been claimed is to submit it yourself.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Is my data safe?</div>
+        <div class="faq-a">WordVault stores only your chosen username and a securely hashed version of your password. We do not collect email addresses or any personal information. Your trophy data is stored securely in our database.</div>
+      </div>
+
+    </div>
+
+    <div class="cta-box">
+      <h3>Ready to Play?</h3>
+      <p>Find out if you were the first to submit your word.</p>
+      <a href="index.html">Start Playing</a>
+    </div>
+
+  </div>
+
+  <footer class="site-footer">
+    <a href="index.html">Play</a>
+    <a href="daily.html">Daily Challenge</a>
+    <a href="about.html">About</a>
+  </footer>
+
+</body>
+</html>
